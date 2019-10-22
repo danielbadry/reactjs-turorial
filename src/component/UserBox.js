@@ -1,4 +1,3 @@
-// in src/posts.js
 import React from 'react';
 import { List, TextField} from "react-admin";
 
@@ -26,7 +25,7 @@ UserGrid.defaultProps = {
     ids: [],
 };
 
-export const PostList = (props) => (
+export const UserBox = (props) => (
     <List {...props}>
         <UserGrid />
     </List>
